@@ -1,4 +1,4 @@
-package br.com.alura.orgsalura
+package br.com.alura.orgsalura.ui.activity
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
