@@ -6,21 +6,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/nome"
+        android:id="@+id/produto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintTop_toBottomOf="parent"
         tools:text = "Salada de Frutas"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        />
 
     <TextView
-        android:id = "@+id/produto"
+        android:id = "@+id/descricao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/nome"
+        app:layout_constraintTop_toBottomOf="@+id/produto"
         tools:text = "Banana"
         android:layout_marginStart="16dp"
+
         />
 
     <TextView
@@ -28,7 +30,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/preco"
         tools:text = "15.30"
-        app:layout_constraintTop_toBottomOf="@+id/produto"
+        app:layout_constraintTop_toBottomOf="@+id/descricao"
         android:layout_marginStart="16dp" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
